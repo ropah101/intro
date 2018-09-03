@@ -48,11 +48,11 @@ faces.addEventListener("dblclick",function(){
 
     
     if(currentColor === "white"){ 
-        this.style.backgroundColor = "green";
-        currentColor = "green";
+        this.style.backgroundColor = "rgb(10, 12, 39)";
+        currentColor = "rgb(10, 12, 39)";
     
         
-     } else if(currentColor === "green"){
+     } else if(currentColor === "rgb(10, 12, 39)"){
         this.style.backgroundColor = "white";
         currentColor = "white";
         
