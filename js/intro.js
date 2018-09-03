@@ -41,15 +41,20 @@ gal4.addEventListener("mouseover",function(){
 gal4.addEventListener("mouseout",function(){
     this.setAttribute("src","images/gal4.jpg");
 })
+// change button color on click
+var faces = document.getElementById('faces'); 
+var currentColor = "white";
+faces.addEventListener("dblclick",function(){
 
-// change back ground Color 
-
-var colorsArray = ["grey", "rgb(10, 12, 39)"];
-var item = document.getElementsByTagName("text")[0];
-window.addEventListener("scroll", function() {
-  var scrollSize = parseInt(document.body.scrollTop);
-  if (scrollSize > 0.1) {
-    var num = Math.floor(colorsArray.length * Math.random());
-    item.style.background = colorsArray[num];
-  }
-});
+    
+    if(currentColor === "white"){ 
+        this.style.backgroundColor = "green";
+        currentColor = "green";
+    
+        
+     } else if(currentColor === "green"){
+        this.style.backgroundColor = "white";
+        currentColor = "white";
+        
+     } 
+})

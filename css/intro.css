@@ -179,9 +179,12 @@ color: rgb(10, 12, 39);
 }
 #gal{
     font-family: 'Pinyon Script', cursive;
-    color: white;
+    color: rgb(10, 12, 39);
     font-size: 4vw;
-    text-align: center
+    text-align: center;
+    border: 1px solid rgb(10, 12, 39);
+    align-content: center;
+    margin: 10%;
 }
 
 /* section 3 */
